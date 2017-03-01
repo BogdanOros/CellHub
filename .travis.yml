@@ -1,2 +1,4 @@
 language: go
 script: go test -v ./src/ --cover
+notifications:
+  slack: cellhub:kBsLcnpD9rcoGdRHAPmimPfF
